@@ -22,7 +22,7 @@ def main():
 
         logger.info("Vector store Built sucesfully....")
 
-        logger.info("Pipelien built sucesfuly....")
+        logger.info("Pipeline built sucesfully....")
     except Exception as e:
             logger.error(f"Failed to execute pipeline {str(e)}")
             raise CustomException("Error during pipeline " , e)
